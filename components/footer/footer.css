@@ -1,0 +1,89 @@
+/* ===== FOOTER ===== */
+footer {
+    background-color: var(--primary);
+    padding: 80px 0 0;
+}
+
+footer .footer-brand {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--on-primary);
+}
+
+footer .footer-text {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+footer .footer-heading {
+    color: var(--on-primary);
+    margin-bottom: 16px;
+}
+
+footer .footer-link {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer .footer-link:hover {
+    color: var(--on-primary);
+}
+
+footer .footer-contact {
+    display: flex;
+    gap: 12px;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 12px;
+}
+
+footer .footer-contact i {
+    font-size: 20px;
+}
+
+footer .footer-newsletter input {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    padding: 12px 16px;
+    color: #fff;
+    width: 100%;
+}
+
+footer .footer-newsletter input::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+footer .footer-newsletter input:focus {
+    outline: none;
+    border-color: var(--secondary-container);
+}
+
+footer .footer-newsletter .btn-subscribe {
+    background-color: var(--secondary);
+    color: var(--on-secondary);
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    border: none;
+    width: 100%;
+    transition: background 0.3s;
+}
+
+footer .footer-newsletter .btn-subscribe:hover {
+    background-color: var(--secondary-container);
+    color: var(--on-secondary);
+}
+
+footer .footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    margin-top: 48px;
+    padding: 32px 0;
+    text-align: center;
+}
+
+footer .footer-bottom p {
+    color: rgba(255, 255, 255, 0.5);
+    margin: 0;
+}

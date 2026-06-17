@@ -1,0 +1,59 @@
+/* ===== NAVBAR Header===== */
+.navbar-custom {
+    background-color: var(--surface-container-lowest) !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    height: 80px;
+    padding: 0 40px;
+}
+
+.navbar-custom .navbar-brand {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--primary);
+}
+
+.navbar-custom .nav-link {
+    font-size: 16px;
+    color: var(--on-surface-variant);
+    padding: 0.5rem 0;
+    margin: 0 16px;
+}
+
+.navbar-custom .nav-link:hover {
+    color: var(--primary);
+}
+
+.navbar-custom .nav-link.active {
+    color: var(--primary);
+    font-weight: 700;
+    border-bottom: 2px solid transparent;
+    border-image-source: linear-gradient(90deg, #f9eb68, #e49b00);
+    border-image-slice: 1;
+    padding-bottom: 6px;
+}
+
+.navbar-custom .btn-primary-custom {
+    background-color: var(--secondary);
+    color: var(--on-secondary);
+    padding: 8px 24px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    border: none;
+    transition: transform 0.2s;
+}
+
+.navbar-custom .btn-primary-custom:hover {
+    transform: scale(0.95);
+    background-color: var(--secondary);
+    color: var(--on-secondary);
+}
+
+.profile-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid var(--primary-fixed);
+    object-fit: cover;
+}
